@@ -1,10 +1,9 @@
 
-import 'package:dart_application_1/dart_application_1.dart';
+import 'package:dart_application_1/fruit.dart';
 
 void main() {
-
-  BTS raiz1 = BTS(10);
   
+  Fruit fruit = Fruit('orange', 20, 'orange', 'bittersweet', 10);
 
-  print('BTS root> ${raiz1.root}');
+  fruit.checkIfIsMature(10);
 }
